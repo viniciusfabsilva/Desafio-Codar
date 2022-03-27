@@ -13,7 +13,7 @@
   }
 
   nav li {
-    font-size: larger;
+    font-size: 40px;
   }
 
   .navbar-options-button {
@@ -46,10 +46,19 @@
     flex-direction: column-reverse;
   }
 
+  .content-items ul {
+    font-size: 40px;
+  }
+
   .content-information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px;
+  }
+
+  .content-information-text {
+    font-size: xxx-large;
   }
 
   .content-information button {
@@ -63,16 +72,33 @@
 
   .content-information-data {
     flex-direction: column;
+    font-size: 20px;
   }
 
   .content-baseboard {
     padding-top: 96px;
     flex-direction: column;
     align-items: center;
+    max-height: 500px;
   }
 
   .content-baseboard-items {
     margin-bottom: 32px;
+    width: 556px;
+    height: 240px;
+  }
+
+  .content-baseboard-perfil-text {
+    width: 390px;
+    font-size: 30px;
+  }
+
+  .content-baseboard-perfil-name {
+    max-width: 300px;
+  } 
+  
+  .content-baseboard-perfil-location {
+    font-size: 20px;
   }
 
   .footer {
@@ -83,14 +109,14 @@
   .footer-content {
   position: relative;
   flex-direction: column;
-  padding-left: 24px;
   justify-content: unset;
   height: 100%;
 }
 
   .footer-content-items {
-    padding: 48px;
-    width: 200px;
+    padding: 32px;
+    width: 325px;
+    height: 200px
   }
 
   .footer-content-items-title {
@@ -102,6 +128,14 @@
   }
 
   .footer-content-items-text {
-    font-size: 20px;
+    font-size: 30px;
+  }
+
+  .footer-content-items-social{
+    width: 190px;
+  }
+
+  .footer-content-items-social i {
+    font-size: 50px
   }
 }
