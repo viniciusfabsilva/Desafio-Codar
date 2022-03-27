@@ -17,6 +17,7 @@
 HTML<br>
 CSS
 
+
 ## Imagens
 As imagens utilizadas estão disponíveis na pasta `./assets`<br>
 Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
